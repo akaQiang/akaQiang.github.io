@@ -4500,7 +4500,7 @@ ul.list-v >li>a.active {
   border-top-right-radius: 4px;
   font-size: 16px;
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-  background: #fff;
+  background: #1bc3fb;
   transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
@@ -4529,6 +4529,7 @@ ul.list-v >li>a.active {
   -webkit-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
   z-index: 2;
+  font-size: 1.3em;
 }
 #u-search .modal-header .btn-close:hover {
   transform: rotate(90deg);
@@ -4597,6 +4598,7 @@ ul.list-v >li>a.active {
   vertical-align: middle;
   color: #fff;
   z-index: 2;
+  font-size: 1.3em;
 }
 #u-search .modal-footer {
   position: absolute;
