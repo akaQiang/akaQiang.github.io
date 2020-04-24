@@ -3002,8 +3002,11 @@ article .readmore >a {
 .cover-wrapper .cover .cover-body .m_search {
   position: relative;
   max-width: calc(100% - 16px);
-  width: 320px;
+  width: 340px;
   vertical-align: middle;
+}
+.cover-wrapper .cover .cover-body .m_search:hover .icon {
+  color: #1bc3fb;
 }
 .cover-wrapper .cover .cover-body .m_search .form {
   position: relative;
@@ -3020,7 +3023,7 @@ article .readmore >a {
 .cover-wrapper .cover .cover-body .m_search .icon {
   position: absolute;
   display: block;
-  line-height: 2.5rem;
+  line-height: 44px;
   width: 32px;
   top: 0;
   left: 5px;
@@ -3028,13 +3031,17 @@ article .readmore >a {
 }
 .cover-wrapper .cover .cover-body .m_search .input {
   display: block;
-  height: 2.5rem;
+  height: 44px;
   width: 100%;
   box-shadow: none;
   box-sizing: border-box;
-  font-size: 0.875rem;
+  font-size: 16px;
+  line-height: 16px;
+  color: #1bc3fb !important;
   -webkit-appearance: none;
   padding-left: 36px;
+  background: rgba(33,150,243,0.1) !important;
+  border: 1px solid #1bc3fb !important;
   border-radius: 1.4rem;
   background: rgba(255,255,255,0.6);
   backdrop-filter: blur(10px);
@@ -3047,10 +3054,10 @@ article .readmore >a {
   }
 }
 .cover-wrapper .cover .cover-body .m_search .input:hover {
-  background: rgba(255,255,255,0.8);
+  border: 1px solid #1bc3fb;
 }
 .cover-wrapper .cover .cover-body .m_search .input:focus {
-  background: #fff;
+  border: 1px solid #1bc3fb;
 }
 .cover-wrapper .cover .cover-body .menu {
   margin-top: 16px;
@@ -3728,6 +3735,16 @@ div.hoverbox:hover >div.target {
 }
 .reveal {
   visibility: hidden;
+}
+canvas {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -1;
 }
 #loading-bar-wrapper {
   position: fixed;
