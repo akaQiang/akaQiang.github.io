@@ -2891,9 +2891,6 @@ article .readmore >a {
   .cover-wrapper .cover.half .cover-body div.a {
     margin-top: 10%;
   }
-  .cover-wrapper .cover.half .cover-body div.b {
-    margin-top: 8vh;
-  }
 }
 .cover-wrapper .cover .scroll-down {
   width: 100%;
@@ -2969,6 +2966,7 @@ article .readmore >a {
 }
 .cover-wrapper .cover .cover-body {
   margin: auto;
+  height: auto !important;
 }
 .cover-wrapper .cover .cover-body,
 .cover-wrapper .cover .cover-body div.a,
