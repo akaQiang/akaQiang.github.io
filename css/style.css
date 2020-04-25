@@ -2901,8 +2901,8 @@ article .readmore >a {
   cursor: pointer;
 }
 .cover-wrapper .cover .scroll-down .scroll-down-effects {
-  color: #fff;
-  font-size: 24px;
+  color: #1bc3fb;
+  font-size: 40px;
   line-height: 64px;
   position: absolute;
   text-shadow: 0 1px 2px rgba(0,0,0,0.1);
@@ -2975,6 +2975,8 @@ article .readmore >a {
   align-items: center;
   justify-content: center;
   max-width: 100%;
+  width: 100%;
+  height: 150px;
 }
 .cover-wrapper .cover .cover-body .title {
   font-family: "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
@@ -2985,7 +2987,7 @@ article .readmore >a {
   font-size: 0.875rem;
 }
 .cover-wrapper .cover .cover-body .logo {
-  max-height: 100px;
+  max-height: 150px;
   max-width: calc(100% - 4 * 16px);
 }
 @media screen and (min-height: 1024px) {
@@ -3057,7 +3059,10 @@ article .readmore >a {
   border: 1px solid #1bc3fb;
 }
 .cover-wrapper .cover .cover-body .m_search .input:focus {
-  border: 1px solid #1bc3fb;
+  border: 2px solid #1bc3fb !important;
+}
+.cover-wrapper .cover .cover-body .m_search .input:focus + .icon {
+  color: #1bc3fb;
 }
 .cover-wrapper .cover .cover-body .menu {
   margin-top: 16px;
@@ -3093,8 +3098,8 @@ article .readmore >a {
 .cover-wrapper .cover .cover-body .menu ul>li>a:hover,
 .cover-wrapper .cover .cover-body .menu ul>li>a.active,
 .cover-wrapper .cover .cover-body .menu ul>li>a:active {
-  color: #555;
-  border-bottom: 2px solid #555;
+  color: #1bc3fb;
+  border-bottom: 2px solid #1bc3fb;
 }
 .cover-wrapper .cover .cover-body .switcher > li a:hover {
   background: rgba(51,51,51,0.15);
@@ -3994,6 +3999,12 @@ canvas {
   .l_header .m_search .input:focus {
     box-shadow: 0 4px 8px 0px rgba(0,0,0,0.1);
     color: #fff;
+    border: 1px solid #fff;
+  }
+  .l_header .m_search .input:focus ~ .icon {
+    color: #fff;
+  }
+  .l_header .m_search .input:hover {
     border: 1px solid #fff;
   }
 }
