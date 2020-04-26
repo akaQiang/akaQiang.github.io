@@ -5011,7 +5011,7 @@ ul.list-v >li>a.active {
   -o-transition: all 0.28s ease;
 }
 .widget.blogger .content .social-wrapper a:hover {
-  color: #ff5722;
+  color: #1bc3fb;
 }
 .widget.blogger .content .social-wrapper a.social {
   font-size: 1rem;
@@ -5024,8 +5024,8 @@ ul.list-v >li>a.active {
   border-radius: 100px;
 }
 .widget.blogger .content .social-wrapper a.social:hover {
-  background: #fff;
-  color: #fff;
+  background: rgba(33,150,243,0.2);
+  color: #1bc3fb;
 }
 @media screen and (max-width: 768px) {
   .widget.blogger .content .social-wrapper {
