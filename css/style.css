@@ -2884,7 +2884,7 @@ article .readmore >a {
   height: calc(36vh - 64px + 200px);
 }
 .cover-wrapper .cover.half .cover-body div.b {
-  margin-top: 0%;
+  margin-top: 2%;
   margin-bottom: 0;
 }
 @media screen and (max-width: 500px) {
