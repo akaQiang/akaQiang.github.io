@@ -2890,6 +2890,7 @@ article .readmore >a {
 @media screen and (max-width: 500px) {
   .cover-wrapper .cover.half .cover-body div.a {
     height: auto;
+    margin-bottom: 20px;
   }
 }
 .cover-wrapper .cover .scroll-down {
